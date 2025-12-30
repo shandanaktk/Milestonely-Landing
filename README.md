@@ -1,2 +1,0 @@
-# Milestonely-Landing
-Landing Page
