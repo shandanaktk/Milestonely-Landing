@@ -2,7 +2,7 @@
   --primary-color: #6366f1;
   --primary-light: #818cf8;
   --primary-dark: #4f46e5;
-  --primary-gradient: linear-gradient(135deg, #6366f1 0%, #818cf8 100%);
+  --primary-gradient: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 25%, #3b82f6 50%, #10b981 75%, #7c3aed 100%);
 
   --secondary-color: #f0f4ff;
   --accent-color: #fbbf24;
@@ -41,9 +41,9 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--text-primary);
-  background-color: var(--bg-primary);
-  line-height: 1.5;
+  color: #ffffff;
+  background: var(--primary-gradient), radial-gradient(circle at 30% 30%, rgba(255,255,255,0.2) 0%, transparent 50%);
+  min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
